@@ -1,0 +1,20 @@
+#mongodb
+#DatabaseType: mongodb
+#DatabaseConnectionString: mongodb://localhost:27017/?authSource=coolpy
+#postgres
+#DatabaseType: postgres #mssql mysql postgres  mongodb oss-gridfs
+#DatabaseConnectionString: host=192.168.1.166 port=13246 user=postgres dbname=ldh sslmode=disable password=123456
+#oss
+DatabaseType: oss-gridfs
+DatabaseConnectionString: mongodb://localhost:27017
+BrokerHost: 127.0.0.1
+BrokerPort: 1883
+BrokerClientId:
+BrokerUser:
+BrokerPassword:
+BrokerClearSession: true
+LogFilePath: dbpoxy.log
+AccessToken: password
+OpTopics:
+ Topic: dbpoxy/mongodb/get
+ Qos: 0
