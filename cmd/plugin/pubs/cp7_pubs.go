@@ -14,6 +14,7 @@ import (
 //告诉内核此插件为消息过滤插件
 var CT = "pubs"
 
+//只会在主程序首次启动或热更新时运行一次
 func Setup() {
 	log.Println("pubs setup event ok.")
 }
@@ -53,6 +54,7 @@ func Loop(cid, topic string, qos uint8, payload []byte) (bool, []byte, error) {
 	return false, nil, nil
 }
 
+//内核过程处理相关的错误提示会触发此方法
 func Err(cid, topic string, qos uint8, payload []byte, err string) {
 	log.Println("pubs err event")
 	log.Println(cid, topic, qos, string(payload), err)

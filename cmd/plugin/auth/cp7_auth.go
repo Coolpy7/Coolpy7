@@ -19,10 +19,12 @@ var CT = "auth"
 ////jwt key
 //var secretKey = "Coolpy7yeah"
 
+//只会在主程序首次启动或热更新时运行一次
 func Setup() {
 	log.Println("auth setup event ok.")
 }
 
+//每个用户登陆都会触发此事件 return true即允许登入
 func Loop(cid, username, password, remote string) bool {
 	log.Println(cid, username, password, remote)
 
@@ -56,6 +58,7 @@ func Loop(cid, username, password, remote string) bool {
 	return true
 }
 
+//内核身份验证过程处理相关的错误提示会触发此方法
 func Err(cid, username, password, remote, err string) {
 	log.Println(cid, username, password, remote)
 }
