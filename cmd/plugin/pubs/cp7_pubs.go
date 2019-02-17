@@ -14,9 +14,12 @@ import (
 //告诉内核此插件为消息过滤插件
 var CT = "pubs"
 
-//只会在主程序首次启动或热更新时运行一次
+//告诉内核本插件版本号，当内核重启首次加载多个插件时会生效Ver值最大的相同性质插件
+var Ver float32 = 1.1
+
+//主程序首次启动或热更新后加触发一次
 func Setup() {
-	log.Println("pubs setup event ok.")
+	log.Println("Publish plugin ok version", Ver)
 }
 
 //每个用户消息推送都会触发此事件
@@ -54,7 +57,7 @@ func Loop(cid, topic string, qos uint8, payload []byte) (bool, []byte, error) {
 	return false, nil, nil
 }
 
-//内核过程处理相关的错误提示会触发此方法
+//内核逻辑处理异常触发此事件
 func Err(cid, topic string, qos uint8, payload []byte, err string) {
 	log.Println("pubs err event")
 	log.Println(cid, topic, qos, string(payload), err)

@@ -16,15 +16,17 @@ import (
 //告诉内核此插件为用户身份验证插件
 var CT = "auth"
 
+//告诉内核本插件版本号，当内核重启首次加载多个插件时会生效Ver值最大的相同性质插件
+var Ver float32 = 1.1
+
 ////jwt key
 //var secretKey = "Coolpy7yeah"
 
-//只会在主程序首次启动或热更新时运行一次
+//主程序首次启动或热更新后加触发一次
 func Setup() {
-	log.Println("auth setup event ok.")
+	log.Println("Authentication plugin ok version", Ver)
 }
 
-//每个用户登陆都会触发此事件 return true即允许登入
 func Loop(cid, username, password, remote string) bool {
 	log.Println(cid, username, password, remote)
 
@@ -58,9 +60,9 @@ func Loop(cid, username, password, remote string) bool {
 	return true
 }
 
-//内核身份验证过程处理相关的错误提示会触发此方法
+//内核逻辑处理异常触发此事件
 func Err(cid, username, password, remote, err string) {
-	log.Println(cid, username, password, remote)
+	log.Println(cid, username, password, remote, err)
 }
 
 //http请求
