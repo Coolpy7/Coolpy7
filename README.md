@@ -6,3 +6,6 @@
 ## https://github.com/Coolpy7/Coolpy7/releases
 
 # 从7.3.2版本开始使用extend扩展功能服务代替之前以插件方式开发扩展功能，祥情请参阅技术手册
+
+#QQ群
+![QQ群](http://coolpy.net/assets/img/devices/pc.jpg)
