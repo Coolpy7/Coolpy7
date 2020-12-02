@@ -75,4 +75,8 @@ Coolpy7 遵循 MIT 开源协议。可以自由的使用、修改源代码，也�
 
 ## QQ群
 
-<img src="https://github.com/Coolpy7/Coolpy7/blob/master/qq.jpg" width="400" height="688"><img src="https://github.com/Coolpy7/Coolpy7/blob/master/wx.jpeg" width="350" height="475">
+<img src="https://github.com/Coolpy7/Coolpy7/blob/master/qq.jpg" width="400" height="688">
+
+## 如果对项目很满意请为作者打赏一杯Coffee吧
+
+<img src="https://github.com/Coolpy7/Coolpy7/blob/master/wx.jpeg" width="350" height="475">
