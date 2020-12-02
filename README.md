@@ -54,6 +54,7 @@
 | -------------- | -------- |
 | Linux          | [go_build_Coolpy7_go_linux.zip](https://github.com/Coolpy7/Coolpy7/blob/master/go_build_Coolpy7_go_linux.zip) |
 | Mac            | [go_build_Coolpy7_go_mac](https://github.com/Coolpy7/Coolpy7/blob/master/go_build_Coolpy7_go_mac.zip) |
+| Windows        | [docker_windows_coolpy7](https://coolpy7.gitbook.io/coolpy7book/kai-shi-shi-yong/docker-bu-shu-windows-yun-hang-cp7) |
 | Arm64          | [NanoPi,JetsonNano,树莓派等等...](https://github.com/Coolpy7/Coolpy7/blob/master/go_build_Coolpy7_go_arm64_linux.zip) |
 | Mips(le)      | [OpenWrt(MT7688)等等...](https://github.com/Coolpy7/Coolpy7/blob/master/go_build_Coolpy7_go_mipsle_linux.zip) |
 
