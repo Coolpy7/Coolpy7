@@ -75,4 +75,4 @@ Coolpy7 遵循 MIT 开源协议。可以自由的使用、修改源代码，也�
 
 ## QQ群
 
-[](https://github.com/Coolpy7/Coolpy7/blob/master/qq.jpg)
+<img src="https://github.com/Coolpy7/Coolpy7/blob/master/qq.jpg" width="400" height="688">
