@@ -75,20 +75,4 @@ Coolpy7 遵循 MIT 开源协议。可以自由的使用、修改源代码，也�
 
 ## QQ群
 
-请看文档：
-
-- [MQTT协议简介](./docs/mqtt-introduction.md)
-
-- [MQTT协议通信过程](./docs/mqtt-communication.md)
-
-- [mqttclient代码生成工具](./docs/mqtt-tool.md)
-
-- [mqttclient配置及裁剪工具](./docs/mqtt-config.md)
-
-- [mqttclient设计与实现方式](./docs/mqtt-design.md)
-
-- [mqttclient连接到百度天工物接入](./docs/mqtt-baidu.md)
-
-- [mqttclient连接到OneNET云平台](./docs/mqtt-onenet.md)
-
-- [mqttclient连接到阿里云物联网平台](./docs/mqtt-aliyun.md)
+[](https://github.com/Coolpy7/Coolpy7/blob/master/qq.jpg)
