@@ -40,6 +40,8 @@
 
 - **Web浏览器聊天室示例（可与微信小程序示例连同一Coolpy7后互相聊天）**：https://github.com/Coolpy7/Cp7Chat
 
+- **Web浏览器mqtt.js客户端示例**， https://github.com/Coolpy7/mqttjs_browser_client_demo
+
 ## 整体框架
 
 拥有非常明确的分层框架。
