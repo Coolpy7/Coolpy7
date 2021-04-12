@@ -14,7 +14,7 @@
 
 - **多种技术客户端示例** https://github.com/Coolpy7/mqtt-client-examples
 
-- **测能及客户端测试项目**，https://github.com/Coolpy7/coolpy7_benchmark
+- **性能测试项目**，https://github.com/Coolpy7/coolpy7_benchmark
 
 - **内核功能扩展服务**，https://github.com/Coolpy7/coolpy7_extend_service
 
