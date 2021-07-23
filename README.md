@@ -49,7 +49,7 @@
 
 拥有非常明确的分层框架。
 
-![整体框架](https://gblobscdn.gitbook.com/assets%2F-LPz4APWKTuf0FRQG1lh%2F-M0a3JzqBKD0TtVU3f7a%2F-M0a3UKQ3w-nqiZAybZf%2FCoolpy7%E6%96%B0%E6%9E%B6%E6%9E%84.png?alt=media&token=79671425-a1bc-42a5-8184-1af1a51e8b36)
+![整体框架](https://gblobscdn.gitbook.com/assets%2F-LPz4APWKTuf0FRQG1lh%2F-Mf6RSyCPZ_xIKi_UmTA%2F-Mf6ReHiNpikkn7VV1RD%2FCoolpy7%E6%96%B0%E6%9E%B6%E6%9E%84.png?alt=media&token=74dfae5d-60c0-4d9f-be39-31a36cc78f2f)
 
 ## 支持的平台
 
