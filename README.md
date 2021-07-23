@@ -68,7 +68,6 @@
 
 | 发布版本 | 描述 | 
 | --- | --- |
-| [v7.3.2] | 使用extend扩展功能服务代替之前以插件方式开发扩展功能 |
 | [最新版本] | [release下载](https://github.com/Coolpy7/Coolpy7/releases) |
 
 ## 问题
