@@ -1,1 +1,0 @@
-build plugin on cmd/plugin/make.sh
