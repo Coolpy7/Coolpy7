@@ -26,8 +26,6 @@
 
 - **TLS加密连接代理服务**，https://github.com/Coolpy7/Coolpy7-TLS-Poxy
 
-- **WebSocket代理服务器**，https://github.com/Coolpy7/Coolpy7/blob/master/go_build_Coolpy7_ws_go_linux.zip
-
 - **WebSocket-TLS代理服务**，https://github.com/Coolpy7/Coolpy7-WS-TLS-Poxy
 
 - **OATUTH2.0用户中心**，[Coolpy7用户中心服务器端](https://github.com/Coolpy7/oauth2_server)，[用户中心Web前端UI](https://github.com/Coolpy7/oauth2_ui)
