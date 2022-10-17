@@ -4,6 +4,8 @@
 
 **一个高性能、高稳定性的跨平台MQTT服务端**
 
+# [Coolpy7社区版开源地址:https://github.com/Coolpy7/Coolpy7_Community](https://github.com/Coolpy7/Coolpy7_Community)
+
 一个高性能、高稳定性的跨平台MQTT服务端，基于EPOLL之上开发，可以在嵌入式设备（OpenWrt/Arm64）、Linux、Windows、Mac上使用，拥有完善Qos功能和配套开源周边功能库，以极少的资源实现优质的单机百万千万级MQTT服务，并且无缝衔接主流数据库。
 
 ## 优势：
